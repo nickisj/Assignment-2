@@ -1,0 +1,112 @@
+/* Body of CSS for index.html-Week 2/Fashion_blog_part2*/
+body {
+		font-family: "Lato";
+		font-size: 14px;
+		color: black;
+		background-color: white;
+		min-width: 800px;
+		text-decoration: none;
+		margin:1em;
+		padding:1em;
+	}
+/*Remove underlines for all hyperlinks*/
+a:link{
+		text-decoration: none;
+		color: inherit;
+	}
+/*Add Drop Caps to the first letter in main content.*/
+.firstletter{
+	float: left;
+	font-size: 5em;
+	line-height: 1.5em;
+	color: gray;
+	margin-right:0.2em;
+	}
+/*Format Header (under headers1, 2 and 3. Headers 1 and 2 are formatted next to each other on the same line. */
+ h1 {
+		color: red;
+		font-size:3em;
+		display: inline-block;
+	}
+h2 {
+	 	color: gray;
+	 	font-size: 2em;
+	 	display:inline-block;
+	}
+h3 {
+		color: gray;
+		font-size: 2em;
+	}
+/*Format Navigation Tabs */
+nav.extra {
+		color: gray;
+		font-size: 1.5em;
+		background-color: black;
+	}
+nav.extra li{
+		display: inline-block;
+		text-align: center;
+		color:white;
+		margin-left: 7px;
+		margin-right: 7px;
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+/* Hyperlink to continuation of article on next page. */
+a.sub {
+		color:red;
+		float:right;
+		padding-bottom: 5px;
+	}	
+.sidebar{
+		position: relative;
+		float: right;
+		color: gray;
+		width: 300px;
+		height: 900px;
+		overflow: hidden;
+		margin-left:15px;
+			}
+/*Specifics for sidebar */
+.sidebar h5{
+		font-size: 1.5em
+	}
+.sidebar li{
+		color:red;
+		text-align: left;
+		margin-left: 10px;
+		margin-right: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+/*Format of Main Content on the the left side on page. */
+.main{
+		float:left;
+		height: 900px;
+		width: 600px;
+		position:absolute;
+		z-index:5;
+		}
+/*Add footer to the entire width of the bottom of teh problem. Note: I had a lot of problems with keeping the footer to the bottom of the page.  The footer overlaps with the main text.*/
+.footer{
+		bottom: 0px;
+		height: 50px;
+		width: 100%
+		z-index: -1
+		}
+.footer li{
+	font-color: red;
+	font-size:.8em;
+	display: inline-block;
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+/*Add copyright at the very bottom of the page.*/
+.footer p{
+	font-color: gray;
+	font-size:1em;
+	text-align:left;
+		}
